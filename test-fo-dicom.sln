@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DicomClient", "DicomClient\DicomClient.csproj", "{9D29EBDD-0DBE-4864-95B6-72892208020B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E86E13C-777C-4584-AFA3-60B411D0CACE} = {1E86E13C-777C-4584-AFA3-60B411D0CACE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DicomServer", "DicomServer\DicomServer.csproj", "{1E86E13C-777C-4584-AFA3-60B411D0CACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D29EBDD-0DBE-4864-95B6-72892208020B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D29EBDD-0DBE-4864-95B6-72892208020B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D29EBDD-0DBE-4864-95B6-72892208020B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D29EBDD-0DBE-4864-95B6-72892208020B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E86E13C-777C-4584-AFA3-60B411D0CACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E86E13C-777C-4584-AFA3-60B411D0CACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E86E13C-777C-4584-AFA3-60B411D0CACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E86E13C-777C-4584-AFA3-60B411D0CACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BA5D01A-29E8-47EC-876F-CF5B52146BD7}
+	EndGlobalSection
+EndGlobal
